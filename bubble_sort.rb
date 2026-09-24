@@ -15,4 +15,7 @@ def bubble_sort(array)
   array
 end
 
-puts bubble_sort([4,3,78,2,0,2]) == [0,2,2,3,4,78]
+# FOR TESTING
+unsorted = [4,3,78,2,0,2]
+sorted = [0,2,2,3,4,78]
+puts bubble_sort(unsorted) == sorted
